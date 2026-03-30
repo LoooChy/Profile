@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Qingyi Lu | Frontend Developer",
+  title: "Eddie Lu | Frontend Developer",
   description:
     "Wellington-based frontend developer specialising in React, TypeScript, Next.js and accessible, scalable web applications."
 };

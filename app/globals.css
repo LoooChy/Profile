@@ -154,15 +154,35 @@ section[id] {
   scrollbar-width: none;
 }
 
-#starlight-canvas {
+.three-background {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background: #121221;
+  inset: 0;
+  z-index: 0;
   pointer-events: none;
+  background: #020711;
+}
+
+.three-background canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.particle-heading-slot {
+  position: relative;
+  width: 100%;
+}
+
+.shared-particle-heading-layer {
+  position: fixed;
+  z-index: 15;
+  pointer-events: none;
+  transition: top 0.72s cubic-bezier(0.22, 1, 0.36, 1), left 0.72s cubic-bezier(0.22, 1, 0.36, 1), width 0.72s cubic-bezier(0.22, 1, 0.36, 1), height 0.72s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.35s ease;
+  will-change: top, left, width, height, opacity;
+}
+
+.shared-particle-heading-layer canvas {
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .clamp-bg-text {

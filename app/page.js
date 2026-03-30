@@ -63,8 +63,8 @@ const experiences = [
     title: "Intermediate Frontend Developer",
     company: "FHSS Technology Co., Ltd",
     description:
-      "Delivered 30+ web applications for public-sector organisations, built data dashboards with React and ECharts, and helped modernise legacy internal systems into reusable React-based platforms.",
-    chips: ["Dashboards", "Low-Code Platform"],
+      "Delivered 30+ web applications and internal platforms for public-sector digital transformation, built data-intensive monitoring dashboards with React and ECharts, contributed to a React-based low-code platform, and modernised legacy jQuery/JSP systems into reusable Webpack-based frontend architecture.",
+    chips: ["Data Dashboards", "Low-Code Platform"],
     cardClass: "card-slide-right bg-on-primary-container text-on-primary",
     titleClass: "",
     descriptionClass: "text-on-surface",
@@ -404,7 +404,7 @@ export default function HomePage() {
               </div>
 
               <div className="md:col-span-4 group zoom-reveal-container">
-                <div className="relative bg-surface-container-lowest rounded-xl overflow-hidden shadow-xl aspect-square">
+                <a className="block relative bg-surface-container-lowest rounded-xl overflow-hidden shadow-xl aspect-square" href="http://intl.jfhealthcare.com/en/" rel="noreferrer" target="_blank">
                   <img alt="CT/MRI annotation platform" className="w-full h-full object-cover" src="/ct.png" />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                   <div className="absolute top-4 left-4 md:top-8 md:left-8 text-5xl md:text-8xl font-black text-on-surface/5 select-none">02</div>
@@ -412,24 +412,24 @@ export default function HomePage() {
                     <h3 className="text-xl md:text-3xl font-black text-on-surface group-hover:text-white transition-colors">CT/MRI ANNOTATION PLATFORM</h3>
                     <p className="text-[9px] md:text-sm font-bold text-on-surface-variant group-hover:text-on-primary-container transition-colors uppercase tracking-widest">Medical Imaging Platform</p>
                   </div>
-                </div>
+                </a>
               </div>
 
               <div className="md:col-span-5 group zoom-reveal-container">
-                <div className="relative bg-on-primary-container rounded-xl overflow-hidden shadow-xl aspect-square">
-                  <img alt="CT/MRI annotation platform" className="absolute w-full h-full object-cover" src="/fhss.png" />
+                <a className="block relative bg-on-primary-container rounded-xl overflow-hidden shadow-xl aspect-square" href="https://www.fhss.com.cn/" rel="noreferrer" target="_blank">
+                  <img alt="Data visualisation and security solutions" className="absolute w-full h-full object-cover" src="/fhss.png" />
                   <div className="absolute inset-0 flex items-center justify-center opacity-20 overflow-hidden"><div className="w-full h-full bg-primary blob-shape animate-pulse" /></div>
                   <div className="absolute top-4 left-4 md:top-8 md:left-8 text-5xl md:text-8xl font-black text-white/10 select-none">03</div>
                   <div className="relative z-10 p-6 md:p-12 h-full flex flex-col justify-end">
-                    <h3 className="text-2xl md:text-4xl font-black text-white mb-2 md:mb-4">LOW-CODE PLATFORM</h3>
-                    <p className="text-surface-variant mb-6 md:mb-8 text-sm md:text-lg font-medium">React-based internal platform that reduced development turnaround time and encouraged reusable component patterns across teams.</p>
-                    <div className="flex gap-3 md:gap-4">
-                      {['React', 'Redux'].map((tag) => (
+                    <h3 className="text-2xl md:text-4xl font-black text-white mb-2 md:mb-4">DATA VISUALISATION & SECURITY</h3>
+                    <p className="text-surface-variant mb-6 md:mb-8 text-sm md:text-lg font-medium">Delivered enterprise web platforms focused on data visualisation, data protection, and information security workflows, helping operational teams monitor critical systems and manage sensitive information with greater clarity.</p>
+                    <div className="flex gap-3 md:gap-4 flex-wrap">
+                      {['Data Visualisation', 'Data Security', 'InfoSec'].map((tag) => (
                         <span key={tag} className="px-3 md:px-4 py-1.5 md:py-2 bg-white/10 text-white rounded-full text-[9px] md:text-xs font-black uppercase">{tag}</span>
                       ))}
                     </div>
                   </div>
-                </div>
+                </a>
               </div>
 
               <div className="md:col-span-7 group zoom-reveal-container">

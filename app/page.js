@@ -389,7 +389,7 @@ export default function HomePage() {
                   <div className="absolute bottom-4 left-4 right-4 md:bottom-8 md:left-8 md:right-8 flex flex-col md:flex-row justify-between items-start md:items-end gap-4 md:gap-6">
                     <div>
                       <h3 className="text-2xl md:text-4xl font-black text-white mb-2 md:mb-4">MOSO TEA</h3>
-                      <p className="text-slate-100 mb-4 max-w-2xl text-sm md:text-base leading-relaxed">Custom booking website for a tea culture studio in Wainuiomata, covering UX, full-stack development, deployment, and booking flow design.</p>
+                      <p className="text-slate-100 mb-4 max-w-2xl text-sm md:text-base leading-relaxed">Custom booking website for a tea culture studio in Wellington, covering UX, full-stack development, deployment, and booking flow design.</p>
                       <div className="flex flex-wrap gap-2 md:gap-3">
                         {['Next.js', 'TypeScript', 'PostgreSQL'].map((tag) => (
                           <span key={tag} className="px-3 md:px-4 py-1 bg-primary text-on-primary rounded-full text-[9px] md:text-xs font-bold uppercase tracking-widest">{tag}</span>
